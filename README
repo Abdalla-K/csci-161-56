@@ -1,1 +1,31 @@
-GIT repository for csci161-56/lab7
+PROGRAM STRUCTURE:
+
+My program is all done in the cpp file the H file only has the declarations.
+
+Main only calls one function which then calls check function that checks
+the user's input and then the check function calls the appropriate function from
+the Manager class.
+
+The Manager class goes on to call functions from the base class employee where the defenitions
+of each function lies.
+
+PROGRAM FUCNTIONALITY:
+
+The program uses linked lists to: 
+1. hire a new employee (by adding a new node to the end of list). 
+2. promote/demote an employee (by changing the level variable in node).
+3. dismiss an employee (by deallocating appropriate node). 
+4. lookup an employee's level (by finding employee name and printing level). 
+5. display all employees at a specific level (by checking if level is appropriate then displaying all employees at level).  
+6. assign a new mentor to an employee (searches for appropriate employee name then assigns mentor to the variable in node).  
+7. terminate a mentor/mentee pair (searches for employee name then removes mentor). 
+8. lookup mentoring information for a specific employee (searches for employee name then prints mentor).  
+9. display all current mentoring pairs (goes through list then checks if each employee has a mentor if they do it prints the mentor).
+10. exit the program (checks if user picked option 10 if so exits).
+
+HOW TO RUN IT:
+
+First choose option 1 to hire an employee then you could do as you wish 
+after you have at least one employee hired.
+
+Make sure that the level is one word with no spaces.
