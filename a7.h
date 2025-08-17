@@ -1,6 +1,3 @@
-// Abdalla Kharoub
-// 665282497
-
 #ifndef a7_H
 #define a7_H
 
