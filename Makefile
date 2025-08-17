@@ -1,6 +1,3 @@
-# Abdalla Kharoub
-# 665282497
-
 output: a7.o main.o
 	g++ a7.o main.o -o output -g -Wall -Wextra
 
