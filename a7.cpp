@@ -1,7 +1,3 @@
-// Abdalla Kharoub
-// 665282497
-
-
 #include <iostream>
 #include <string>
 #include "a7.h"
